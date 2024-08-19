@@ -5,7 +5,7 @@ import theme from "./theme";
 import NavBar from "./Navbar";
 import Home from "./Home";
 import SearchResults from "./SearchResults";
-// import Booking from "./Booking";
+
 import MyBookings from "./MyBooking";
 
 function App() {
@@ -16,7 +16,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/search" element={<SearchResults />} />
-          {/* <Route path="/book/:hospitalId" element={<Booking />} /> */}
           <Route path="/bookings" element={<MyBookings />} />
         </Routes>
       </Router>
